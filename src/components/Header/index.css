@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+
+.wave-image {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.wave-name {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+.route-link {
+  margin: 20px;
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}

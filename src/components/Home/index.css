@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 30px;
+  height: 70vh;
+}
+
+.home-image {
+  width: 150px;
+}
+
+.home-heading {
+  font-size: 20px;
+  color: #6d396b;
+  font-weight: 500;
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-heading {
+    font-size: 48px;
+  }
+}
